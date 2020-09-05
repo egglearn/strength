@@ -87,7 +87,7 @@ calculator.addEventListener("submit", function (event) {
         : average >= 70 && average < 100
         ? " Built - Your are STRONG"
         : average >= 100 && average < 160
-        ? "Average"
+        ? " GYM Goer , stronger than Average Person but not a GYM RAT "
         : " Beginner, Plenty of Room for Improvement - Keep Working";
 
     const backgroundChange =
@@ -140,7 +140,7 @@ calculator.addEventListener("submit", function (event) {
         : average >= 70 && average < 100
         ? " Built - Your are STRONG"
         : average >= 100 && average < 160
-        ? "Average"
+        ? " GYM Goer , stronger than Average Person but not a GYM RAT "
         : " Plenty of Room for Improvement - Keep Working";
     console.log(result);
 
@@ -192,7 +192,7 @@ calculator.addEventListener("submit", function (event) {
         : average >= 70 && average < 100
         ? " Built - Your are STRONG"
         : average >= 100 && average < 160
-        ? "Average"
+        ? " GYM Goer , stronger than Average Person but not a GYM RAT "
         : " Plenty of Room for Improvement - Keep Working";
     console.log(result);
 
@@ -244,7 +244,7 @@ calculator.addEventListener("submit", function (event) {
         : average >= 70 && average < 100
         ? " Built - Your are STRONG"
         : average >= 100 && average < 160
-        ? "Average"
+        ? " GYM Goer , stronger than Average Person but not a GYM RAT "
         : " Plenty of Room for Improvement - Keep Working";
     console.log(result);
 
@@ -296,7 +296,7 @@ calculator.addEventListener("submit", function (event) {
         : average >= 70 && average < 100
         ? " Built - Your are STRONG"
         : average >= 100 && average < 160
-        ? "Average"
+        ? " GYM Goer , stronger than Average Person but not a GYM RAT "
         : " Plenty of Room for Improvement - Keep Working";
     console.log(result);
 
@@ -348,7 +348,7 @@ calculator.addEventListener("submit", function (event) {
         : average >= 70 && average < 100
         ? " Built - Your are STRONG"
         : average >= 100 && average < 160
-        ? "Average"
+        ? " GYM Goer , stronger than Average Person but not a GYM RAT "
         : " Plenty of Room for Improvement - Keep Working";
     console.log(result);
 
@@ -397,7 +397,7 @@ calculator.addEventListener("submit", function (event) {
         : average >= 70 && average < 100
         ? " Built - Your are STRONG"
         : average >= 100 && average < 160
-        ? "Average"
+        ? " GYM Goer , stronger than Average Person but not a GYM RAT "
         : " Plenty of Room for Improvement - Keep Working";
     console.log(result);
 
