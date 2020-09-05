@@ -87,7 +87,7 @@ calculator.addEventListener("submit", function (event) {
         ? " Built - Your are STRONG"
         : average >= 100 && average < 160
         ? "Average"
-        : " Plenty of Room for Improvement - Keep Working";
+        : " Beginner, Plenty of Room for Improvement - Keep Working";
 
     const backgroundChange =
       average < 50
