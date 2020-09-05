@@ -1,0 +1,45 @@
+.container {
+  max-width: 600px;
+}
+
+#calculator {
+  background: lightblue;
+  border-radius: 25px;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.contents {
+  margin-left: 25%;
+}
+
+.header {
+  background: lightgreen;
+  border-radius: 25px;
+  padding: 0.5em 2em;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#answer {
+  background: lightskyblue;
+  border-radius: 25px;
+  padding: 2em;
+  margin: 0 auto;
+  margin-top: 2em;
+  font-family: sans-serif;
+}
+
+#button {
+  padding: 0.5em 2em;
+  margin: 2em;
+  margin-left: 0em;
+  border-radius: 10px;
+  outline: none;
+}
+
+#button:hover {
+  background: orange;
+}

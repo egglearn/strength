@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>How Strong Are You?</h1>
+      </div>
+      <form id="calculator">
+        <div class="contents">
+          <h2>Your Bodyweight</h2>
+          <label>Weight In Kg</label>
+          <br />
+
+          <input
+            id="bodyweight"
+            type="number"
+            placeholder="type the number or click the arrow"
+          />
+          <br />
+
+          <h2>Squat</h2>
+          <label>Max Lift Kg</label>
+          <br />
+          <input
+            id="squatlift-weight"
+            type="number"
+            placeholder="type the number or click the arrow"
+          />
+          <br />
+
+          <h2>Bench Press</h2>
+          <label>Max Lift Kg</label>
+          <br />
+          <input
+            id="benchpress-weight"
+            type="number"
+            placeholder="type the number or click the arrow"
+          />
+          <br />
+
+          <br />
+
+          <h2>Dead Lift Kg</h2>
+          <label>Max Lift </label>
+          <br />
+          <input
+            id="deadlift-weight"
+            type="number"
+            placeholder="type the number or click the arrow"
+          />
+          <br />
+
+          <button id="button" type="submit">calculate</button>
+        </div>
+      </form>
+      <div id="answer"></div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
