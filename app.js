@@ -7,6 +7,7 @@ const calculator = document.getElementById("calculator");
 const squatrecords = [210, 240, 257, 265, 325.5, 327.5, 378.5, 330];
 const deadliftrecords = [235, 298, 307, 325, 340, 370, 380];
 const benchpressrecords = [152, 155, 179, 19, 220, 224, 228];
+const doc = "dk";
 
 calculator.addEventListener("submit", function (event) {
   event.preventDefault();
