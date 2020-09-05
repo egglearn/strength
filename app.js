@@ -39,7 +39,6 @@ calculator.addEventListener("submit", function (event) {
         : average >= 100 && average < 160
         ? "Average - You Clearly Have Put Some Effort In - Keep Going"
         : " Beginner -Plenty of Room for Improvement - Keep Working";
-    console.log(result);
 
     const backgroundChange =
       average < 50
