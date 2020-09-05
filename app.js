@@ -79,7 +79,7 @@ calculator.addEventListener("submit", function (event) {
     );
     const average = (deadliftPercent + benchpressPercent + percent) / 3;
     console.log(average);
-    const resultSixty =
+    const result =
       average < 50
         ? "HENCH - You are Extremely STRONG"
         : average <= 50 && average < 70
@@ -112,7 +112,7 @@ calculator.addEventListener("submit", function (event) {
     An Elite Benchpress would be around 150kg, there is a ${benchpressPercent}% difference 
     between your max an Elite Benchpress for your weight class
     
-    Your overall rating would be  ${resultSixty}
+    Your overall rating would be  ${result}
 
     `;
   }
