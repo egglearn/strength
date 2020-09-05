@@ -33,7 +33,7 @@ calculator.addEventListener("submit", function (event) {
     const result =
       average < 50
         ? "HENCH - You are Extremely STRONG - we Hope you are not on the juice"
-        : average <= 50 && average < 70
+        : average <= 50 || average < 70
         ? "WEDGE - You are Very Strong - Ratings!"
         : average >= 70 && average < 100
         ? " Built - Your are STRONG - Respect!"
@@ -44,7 +44,7 @@ calculator.addEventListener("submit", function (event) {
     console.log("ok");
     const backgroundChange =
       average < 50
-        ? average <= 50 && average < 70
+        ? average <= 50 || average < 70
         : (answer.style.background = "lightgreen")
         ? (answer.style.background = "lightgreen")
         : average >= 70 && average < 100
@@ -82,7 +82,7 @@ calculator.addEventListener("submit", function (event) {
     const result =
       average < 50
         ? "HENCH - You are Extremely STRONG"
-        : average <= 50 && average < 70
+        : average <= 50 || average < 70
         ? "WEDGE - You are Very Strong"
         : average >= 70 && average < 100
         ? " Built - Your are STRONG"
@@ -92,7 +92,7 @@ calculator.addEventListener("submit", function (event) {
 
     const backgroundChange =
       average < 50
-        ? average <= 50 && average < 70
+        ? average <= 50 || average < 70
         : (answer.style.background = "lightgreen")
         ? (answer.style.background = "lightgreen")
         : average >= 70 && average < 100
@@ -135,7 +135,7 @@ calculator.addEventListener("submit", function (event) {
     const result =
       average < 50
         ? "HENCH - You are Extremely STRONG"
-        : average <= 50 && average < 70
+        : average <= 50 || average < 70
         ? "WEDGE - You are Very Strong"
         : average >= 70 && average < 100
         ? " Built - You are STRONG"
@@ -146,7 +146,7 @@ calculator.addEventListener("submit", function (event) {
 
     const backgroundChange =
       average < 50
-        ? average <= 50 && average < 70
+        ? average <= 50 || average < 70
         : (answer.style.background = "lightgreen")
         ? (answer.style.background = "lightgreen")
         : average >= 70 && average < 100
@@ -187,7 +187,7 @@ calculator.addEventListener("submit", function (event) {
     const result =
       average < 50
         ? "HENCH - You are Extremely STRONG"
-        : average <= 50 && average < 70
+        : average <= 50 || average < 70
         ? "WEDGE - You are Very Strong"
         : average >= 70 && average < 100
         ? " Built - Your are STRONG"
@@ -198,7 +198,7 @@ calculator.addEventListener("submit", function (event) {
 
     const backgroundChange =
       average < 50
-        ? average <= 50 && average < 70
+        ? average <= 50 || average < 70
         : (answer.style.background = "lightgreen")
         ? (answer.style.background = "lightgreen")
         : average >= 70 && average < 100
@@ -239,7 +239,7 @@ calculator.addEventListener("submit", function (event) {
     const result =
       average < 50
         ? "HENCH - You are Extremely STRONG"
-        : average <= 50 && average < 70
+        : average <= 50 || average < 70
         ? "WEDGE - You are Very Strong"
         : average >= 70 && average < 100
         ? " Built - Your are STRONG"
@@ -250,7 +250,7 @@ calculator.addEventListener("submit", function (event) {
 
     const backgroundChange =
       average < 50
-        ? average <= 50 && average < 70
+        ? average <= 50 || average < 70
         : (answer.style.background = "lightgreen")
         ? (answer.style.background = "lightgreen")
         : average >= 70 && average < 100
@@ -291,7 +291,7 @@ calculator.addEventListener("submit", function (event) {
     const result =
       average < 50
         ? "HENCH - You are Extremely STRONG"
-        : average <= 50 && average < 70
+        : average <= 50 || average < 70
         ? "WEDGE - You are Very Strong"
         : average >= 70 && average < 100
         ? " Built - Your are STRONG"
@@ -302,7 +302,7 @@ calculator.addEventListener("submit", function (event) {
 
     const backgroundChange =
       average < 50
-        ? average <= 50 && average < 70
+        ? average <= 50 || average < 70
         : (answer.style.background = "lightgreen")
         ? (answer.style.background = "lightgreen")
         : average >= 70 && average < 100
@@ -343,7 +343,7 @@ calculator.addEventListener("submit", function (event) {
     const result =
       average < 50
         ? "HENCH - You are Extremely STRONG"
-        : average <= 50 && average < 70
+        : average <= 50 || average < 70
         ? "WEDGE - You are Very Strong"
         : average >= 70 && average < 100
         ? " Built - Your are STRONG"
@@ -354,7 +354,7 @@ calculator.addEventListener("submit", function (event) {
 
     const backgroundChange =
       average < 50
-        ? average <= 50 && average < 70
+        ? average <= 50 || average < 70
         : (answer.style.background = "lightgreen")
         ? (answer.style.background = "lightgreen")
         : average >= 70 && average < 100
@@ -392,7 +392,7 @@ calculator.addEventListener("submit", function (event) {
     const result =
       average < 50
         ? "HENCH - You are Extremely STRONG"
-        : average <= 50 && average < 70
+        : average <= 50 || average < 70
         ? "WEDGE - You are Very Strong"
         : average >= 70 && average < 100
         ? " Built - Your are STRONG"
@@ -403,7 +403,7 @@ calculator.addEventListener("submit", function (event) {
 
     const backgroundChange =
       average < 50
-        ? average <= 50 && average < 70
+        ? average <= 50 || average < 70
         : (answer.style.background = "lightgreen")
         ? (answer.style.background = "lightgreen")
         : average >= 70 && average < 100
