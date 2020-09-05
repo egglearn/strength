@@ -79,7 +79,7 @@ calculator.addEventListener("submit", function (event) {
     );
     const average = (deadliftPercent + benchpressPercent + percent) / 3;
     console.log(average);
-    const result =
+    const resultSixty =
       average < 50
         ? "HENCH - You are Extremely STRONG"
         : average <= 50 && average < 70
@@ -112,7 +112,7 @@ calculator.addEventListener("submit", function (event) {
     An Elite Benchpress would be around 150kg, there is a ${benchpressPercent}% difference 
     between your max an Elite Benchpress for your weight class
     
-    Your overall rating would be  ${result}
+    Your overall rating would be  ${resultSixty}
 
     `;
   }
@@ -138,9 +138,9 @@ calculator.addEventListener("submit", function (event) {
         : average <= 50 && average < 70
         ? "WEDGE - You are Very Strong"
         : average >= 70 && average < 100
-        ? " Built - Your are STRONG"
+        ? " Built - You are STRONG"
         : average >= 100 && average < 160
-        ? " GYM Goer , stronger than Average Person but not a GYM RAT "
+        ? " GYM Goer, stronger than Average Person but not a GYM RAT "
         : " Plenty of Room for Improvement - Keep Working";
     console.log(result);
 
